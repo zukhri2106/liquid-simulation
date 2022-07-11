@@ -1,6 +1,17 @@
 # liquid-simulation
 This project is about 8x8 LED matrix imitates liquid in a container. Accelerometer is used to get the direction of the gravity, and the algorithm will mimic liquid in a container
 
+## Components
+✔ Arduino Uno
+
+✔ 1588 8x8 LED Matrix
+
+✔ GY-521 Module (accelerometer)
+
+✔ jumper wires
+
+Here is a demonstration on how it will look like:
+
 
 https://user-images.githubusercontent.com/50172178/178317792-9f28bf55-963e-4850-b219-bfe830ff3938.mp4
 
