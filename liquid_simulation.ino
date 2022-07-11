@@ -1,23 +1,23 @@
 #include<Wire.h>
 #include <math.h>
 
-#define ROW_1 2
-#define ROW_2 3
-#define ROW_3 4
-#define ROW_4 5
-#define ROW_5 6
-#define ROW_6 7
-#define ROW_7 8
-#define ROW_8 9
+#define ROW_1 9
+#define ROW_2 12
+#define ROW_3 7
+#define ROW_4 13
+#define ROW_5 2
+#define ROW_6 6
+#define ROW_7 A2  
+#define ROW_8 5
 
-#define COL_1 10
-#define COL_2 11
-#define COL_3 12
-#define COL_4 13
-#define COL_5 A0
-#define COL_6 A1
-#define COL_7 A2
-#define COL_8 A3
+#define COL_1 A3
+#define COL_2 1
+#define COL_3 10
+#define COL_4 4
+#define COL_5 8
+#define COL_6 3
+#define COL_7 A1
+#define COL_8 A0
 
 const byte rows[] = {
     ROW_1, ROW_2, ROW_3, ROW_4, ROW_5, ROW_6, ROW_7, ROW_8
@@ -209,10 +209,4 @@ int bitShiftLayer6(int x)
 int bitShiftLayer7(int x)
 {
   return round(exp(x/18200.0+1.27)-exp(1.27));
-}
-
-
-void testfx()
-{
-  //  test your code here
 }
